@@ -1,0 +1,1535 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+p {
+    margin: 0px;
+    padding: 0px;
+}
+
+h2 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.back-img {
+    background: url(./img/hero-img.svg) no-repeat center center / cover;
+    height: 565px;  
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 97px;
+    left: 144px;
+    padding: 16px 100px;
+    color: #FFFFFF;
+}
+
+.img-nav {
+    display: none;
+}
+
+.line {
+    width: 1206px;
+    color: white;
+    background-color: white;
+}
+
+.navlinks {
+    color: white;
+    display: flex;
+    gap: 20px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+
+}
+
+.navlinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+}
+
+.nav-btn {
+    padding: 15px 24px;
+    gap: 12px;
+    border-width: 0.5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #FFFFFF;
+}
+
+.btn-img {
+    width: 20px;
+    height: 20px;
+}
+
+.nav-p {
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    color: white;
+}
+
+.heading-hero {
+    margin-top: 15%;
+    font-weight: 600;
+    font-size: 40px !important;
+    line-height: 48px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.section-1 {
+    width: 375;
+    height: 1078;
+   padding: 60px 16px;
+    gap: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+.bar-phara {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 682;
+    height: 156;
+    gap: 20px;
+
+}
+
+.bar {
+    width: 150px;
+    height: 4px;
+    background-color: #E03740;
+}
+
+.phara-1 {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+    width: 745px;
+    height: 120px;
+
+}
+
+.section-1-img img {
+    width: 100%;
+    height: auto;
+}
+
+.parent {
+    display: flex;
+    align-items: start;
+    margin-top: 20px;
+    width: 80%;
+    justify-content: space-between;
+    height: 280;
+    padding-right: 144px;
+    padding-left: 144px;
+    padding-bottom: 40px;
+}
+
+.child-1 {
+    width: 520;
+    height: 280;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.child-2 {
+    width: 520px;
+    height: 184px;
+    gap: 24px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.sec-2head1 {
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 209px;
+    height: 40px;
+    color: #141515;
+}
+
+.Client {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Expedited {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Quality {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Detailed {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.sec-2head2 {
+    width: 520px;
+    height: 40px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #141515;
+}
+
+.project {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Jersey {
+    width: 463px;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.section-2 {
+    padding-top: 42px;
+    padding-bottom: 82px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.Deep {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 40px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    color: #141515;
+}
+
+.section-3 {
+    width: 100%;
+    height: 406px;
+    background-image: url(./img/bridge-image.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-3 div p {
+    font-size: 112px;
+    font-weight: 700;
+    color: #FFFFFF;
+    letter-spacing: 70px;
+}
+
+.section-4 {
+    width: 85%;
+    height: 658px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 104px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+.sec-4text {
+    width: 466px;
+    height: 392px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Mechanical {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+    width: 150px;
+    color: #141515;
+}
+
+.Calculation {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    width: 466px;
+    color: #141515;
+}
+
+.Selection {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    width: 466px;
+    color: #141515;
+}
+
+.Ductwork {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    width: 466px;
+    color: #141515;
+}
+
+.Energy {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    width: 466px;
+    color: #141515;
+}
+
+.images {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 9px;
+}
+
+.section4-images {
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 480px;
+    gap: 8px;
+}
+
+.sec4-img1 {
+    width: 301px;
+    height: 207;
+    top: -5px;
+}
+
+.sec4-img2 {
+    width: 305px;
+    height: 213px;
+    top: -10px;
+}
+
+.sec4-img3 {
+    width: 514px;
+    height: 280;
+}
+
+.section-4 div h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-4 div p span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-4 div p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #141515;
+}
+
+.section-5 {
+    width: 1140px;
+    padding-top: 88px;
+    padding-bottom: 88px;
+    padding-left: 104px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.section5-images {
+    display: flex;
+    flex-direction: column;
+    width: 614px;
+    height: 480px;
+    gap: 8px;
+}
+
+.sec5-img1 {
+    width: 243px;
+    height: 207px;
+    top: -5px;
+}
+
+.sec5-img2 {
+    width: 242px;
+    height: 213;
+    top: -10px;
+}
+
+.sec5-img3 img {
+    width: 554px;
+    height: 280px;
+}
+
+.sec-5text {
+    width: 466px;
+    height: 392px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.section-5 div h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-5 div p span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-5 div p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #141515;
+}
+
+.images2 {
+    display: flex;
+    flex-direction: row;
+    width: 500px;
+    gap: 9px;
+}
+
+.section-6 {
+    width: 1050px;
+    padding-top: 8px;
+    padding-bottom: 88px;
+    padding-left: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sec-6text {
+    width: 466px;
+    height: 392px;
+    gap: 25px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Plumbing {
+    color: #141515;
+    width: 104px;
+    height: 24px;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.Potable {
+    width: 466px;
+    height: 360px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: #141515;
+}
+
+.Wastewater {
+    width: 466px;
+    height: 360px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: #141515;
+}
+
+.Hot {
+    width: 466px;
+    height: 360px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: #141515;
+}
+
+.Gas {
+    width: 466px;
+    height: 360px;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    color: #141515;
+}
+
+.section-6 div h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-6 div p span {
+    font-size: 18px;
+    font-weight: 700;
+    color: #141515;
+}
+
+.section-6 div p {
+    font-size: 18px;
+    font-weight: 300;
+    color: #141515;
+}
+
+.images3 {
+    width: 400px;
+    height: 288px;
+    gap: 8px;
+    display: flex;
+
+}
+
+.sec6-img1 img {
+    width: 243px;
+    height: 229px;
+    top: -5px;
+}
+
+.sec6-img2 img {
+    width: 242px;
+    height: 213;
+    top: -10px;
+}
+
+.section-7 {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    text-align: center;
+    /* width: 1040px; */
+    height: 432px;
+    padding-right: 60px;
+    padding-left: 60px;
+    gap: 56px;
+}
+
+.textare1 {
+    width: 548px;
+    height: 432px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Voltage {
+    width: 218px;
+    height: 32px;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #141515;
+}
+
+.electronics {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.network {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Wireless {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Structured {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Vertical {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.distribution {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.Telecommunications {
+    width: 548px;
+    /* height: 360px; */
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    color: #141515;
+}
+
+.textare2 {
+    width: 548px;
+    height: 432px;
+    gap: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+li {
+    margin: 0%;
+    padding: 0%;
+}
+
+.Security {
+    width: 119px;
+    /* height: 32px; */
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 32px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #141515;
+}
+
+.alarms {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    width: 548px;
+    /* height: 120px; */
+    color: #141515;
+}
+
+.Closed {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    width: 548px;
+    /* height: 120px;/ */
+    color: #141515;
+}
+
+.Access {
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: -4%;
+    text-align: center;
+    width: 548px;
+    color: #141515;
+}
+
+.section-8 {
+    /* width: 1040px; */
+    height: 565px;
+    padding-top: 144px;
+    padding-bottom: 144px;
+    gap: 56px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sec8-img1 {
+    width: 548px;
+    height: 565px;
+}
+
+.sec8-img2 {
+    width: 548px;
+    height: 565px;
+}
+
+.footer {
+    /* width: 1060px; */
+    /* height: 214px; */
+    justify-content: space-between;
+    padding-top: 72px;
+    padding-right: 144px;
+    padding-bottom: 72px;
+    padding-left: 144px;
+    background-color: #141515;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+    width: 400px;
+    gap: 16px;
+}
+
+.links-head {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 215px;
+    height: 50px;
+    gap: 16px;
+}
+
+.foot-haeading {
+    width: 215px;
+    height: 14px;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    color: #E03740;
+}
+
+.foot-links {
+    width: 104px;
+    height: 20px;
+    gap: 12px;
+    display: flex;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -4%;
+
+}
+
+.foot-links a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.sub1 {
+    width: 215px;
+    height: 50px;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.Location {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    color: #E03740;
+    width: 215px;
+    height: 14px;
+}
+
+.Jersey {
+    width: 215px;
+    height: 20px;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -4%;
+    color: #FFFFFF;
+}
+
+.sub2 {
+    width: 174;
+    height: 50;
+    gap: 16px;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    text-align: start;
+}
+
+.Contacts {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 12%;
+    text-transform: uppercase;
+    color: #E03740;
+    width: 174px;
+    height: 14px;
+}
+
+.link {
+    width: 174;
+    height: 20;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: -4%;
+    text-decoration: underline;
+    text-decoration-style: solid;
+    text-decoration-thickness: 7%;
+    text-decoration-skip-ink: auto;
+}
+
+.section-1-img {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.link {
+    color: #FFFFFF;
+}
+
+@media (max-width: 768px) {
+    .back-img {
+        height: 380px;
+    }
+
+    .navbar {
+        flex-direction: row;
+        gap: 16px;
+        width: 99%;
+        padding-bottom: 0px;
+
+    }
+
+
+    .navlinks {
+        flex-direction: row;
+        gap: 5px;
+    }
+
+    .heading-hero h2 {
+        font-size: 40px !important;
+        width: 200px;
+    }
+
+    .heading-hero {
+        display: flex;
+        justify-content: center;
+    }
+
+    .parent {
+        flex-direction: column;
+        gap: 30px;
+        padding-left: 0px;
+        padding-right: 42px;
+        padding-top: 40px;
+    }
+
+    .phara-1 {
+        font-weight: 300;
+        font-size: 16px !important;
+        line-height: 24px;
+        letter-spacing: -4%;
+        text-align: center;
+        color: #141515;
+        width: 372px;
+    }
+
+    .child-2 {
+        width: 353px;
+    }
+
+    .sec-2head1 {
+        font-size: 28px !important;
+        color: #141515;
+    }
+
+    .sec-2head2 {
+        font-size: 28px !important;
+        color: #141515;
+        width: 259px;
+        padding-bottom: 32px;
+    }
+
+    .Client,
+    .Expedited,
+    .Quality,
+    .Detailed,
+    .project,
+    .Jersey {
+        font-size: 16px !important;
+        width: 351px !important;
+    }
+
+    .Deep h2 {
+        font-size: 24px;
+        width: 100%;
+    }
+
+    .section-1 {
+        padding: 0px;
+    }
+
+    .bar-phara {
+        padding-top: 40px;
+    }
+
+    .section-3 div p {
+        font-size: 60px;
+    }
+
+    .Section-3 {
+        width: 98%;
+    }
+
+    .section-4 {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .section-5 {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: start;
+        align-items: start;
+        margin-top: 30%;
+        width: 94%;
+    }
+
+    .section-6 {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+
+    }
+
+    .section-7 {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+    }
+
+    .section-8 {
+        flex-direction: column;
+        gap: 30px;
+        justify-content: center;
+        align-items: center;
+        width: 94%;
+        margin-top: 28%;
+    }
+
+    .footer {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 94%;
+        margin-top: 36%;
+        gap: 20px;
+    }
+
+    .box {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .foot-links {
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        width: 100%;
+
+    }
+
+    .sub1 {
+        margin-left: -5%;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .line {
+        width: 99%;
+    }
+
+    .sub2 {
+        width: 300px;
+        margin-right: -65px;
+        align-items: center;
+        text-align: center;
+        width: 100%;
+
+    }
+
+    .Mechanical, .Plumbing, .Voltage, .Security {
+        font-size: 28px;
+        color: #141515;
+        font-weight: 700;
+    }
+
+    .Calculation,
+    .Selection,
+    .Ductwork,
+    .Energy,
+    .Potable,
+    .Wastewater,
+    .Hot,
+    .Gas,
+    .electronics,
+    .network,
+    .Wireless,
+    .Structured,
+    .Vertical,
+    .distribution,
+    .Telecommunications,
+    .Closed,
+    .Access,
+    .alarms {
+        font-size: 16px;
+    }
+
+    .section-4,
+    .section-5,
+    .section-7,
+    .section-8 {
+        padding: 40px 16px !important;
+    }
+
+    .footer {
+        padding: 40px 16px;
+    }
+}
+@media (max-width: 480px) {
+    .heading-hero h2 {
+        font-size: 20px;
+
+    }
+
+    .heading-hero {
+        width: 100%;
+    }
+
+    .sec-2head2 {
+        width: 100%;
+    }
+
+    .Jersey {
+        color: #000;
+        margin-bottom: 40px;
+    }
+
+    .section-1-img {
+        margin-top: 82px;
+    }
+
+    .navbar {
+        gap: 0px;
+        width: 92%;
+        justify-content: space-between;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    
+    .section-2 {
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .sec-5text {
+        margin-bottom: 30px;
+    }
+
+    .sec-6text {
+        margin-top: 0px;
+    }
+
+    .section-5 {
+        flex-direction: column-reverse;
+    }
+
+    .line {
+        width: 100%;
+    }
+
+    .section-1 {
+        padding: 0px;
+        justify-content: start;
+        align-items: start;
+        width: 286px;
+        height: 810px;
+        gap: 100px;
+        padding-top: 40px;
+        padding-right: 16px;
+        padding-bottom: 40px;
+        padding-left: 27px;
+    }
+
+    .sub1 {
+        text-align: center;
+        width: 100%;
+        align-items: center;
+    }
+
+    .sub2 {
+        text-align: center;
+        align-items: center;
+        width: 100%;
+
+    }
+
+    .Jersey {
+        margin-top: 0px;
+        margin-bottom: 0%;
+        color: white;
+    }
+
+    .parent {
+        padding: 0px;
+        width: 350px;
+    }
+/* 
+    .phara-1 {
+        font-size: 12px;
+        width: 343px;
+        height: 160px;
+    } */
+
+    .child-2 {
+        width: 350px;
+    }
+
+    .sec-2head1,
+    .sec-2head2 {
+        font-size: 18px;
+    }
+
+    .Client,
+    .Expedited,
+    .Quality,
+    .Detailed,
+    .project,
+    .Jersey {
+        font-size: 10px;
+        width: 300px;
+        font-family: Roboto;
+        font-weight: 300;
+        font-size: 20px;
+        line-height: 24px;
+        letter-spacing: -4%;
+        text-align: center;
+
+    }
+
+    .section-3 div p {
+        font-size: 23px;
+        text-align: center;
+        background-position: center;
+        letter-spacing: 30px;
+
+        width: 389px;
+    }
+
+    .section-3 {
+        width: 425px;
+        height: 200px;
+        text-align: center;
+        justify-content: space-around;
+        background-image: url(./img/american-bridge.svg);
+    }
+
+    .sec-4text {
+        width: 400px;
+    }
+
+    .section-4 div p {
+        width: 400px;
+    }
+
+    .images img {
+        width: 100%;
+        margin-top: 60px;
+    }
+
+    .section-4-images {
+        width: 400px;
+    }
+
+    .images {
+        width: 400px;
+        height: 190px;
+    }
+
+    .images3 {
+        width: 400px;
+        height: 190px;
+        margin: 0px;
+    }
+
+    .sec4-img1 {
+        width: 200px;
+    }
+
+    .section4-images {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .sec4-img2 {
+        width: 200px;
+    }
+
+    .img-nav {
+        display: flex;
+    }
+
+    .nav-img {
+        display: none;
+    }
+
+    .nav-btn {
+        display: none;
+    }
+
+    .sec4-img3 {
+        width: 300px;
+    }
+
+    .sec4-img3 img {
+        width: 400px;
+    }
+
+    .section5-images {
+        width: 400px;
+        height: 327px;
+
+    }
+
+    .Potable {
+        width: 403px;
+    }
+
+    .Wastewater {
+        width: 403px;
+    }
+
+    .Hot {
+        width: 403px;
+    }
+
+    .Gas {
+        width: 403px;
+    }
+
+    .sec-5text {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .images2 {
+        width: 400px;
+        height: 129px;
+    }
+
+    .sec5-img1 {
+        width: 192px;
+        height: 100px;
+    }
+
+    .section5-images {
+        width: 400px;
+        margin-top: 40px;
+    }
+
+    .sec5-img2 {
+        width: 200px;
+        height: 100px;
+
+    }
+
+    .sec5-img2 img {
+        width: 200px;
+    }
+
+    .sec5-img1 img {
+        width: 200px;
+    }
+
+    .sec5-img3 {
+        width: 300px;
+    }
+
+    .sec5-img3 img {
+        width: 400px;
+        height: 182px;
+    }
+
+    .images3 {
+        width: 396px;
+        margin-top: 80px;
+        margin-bottom: 20%;
+    }
+
+    .sec6-img1 img {
+        width: 190px;
+        height: 180px;
+    }
+
+    .sub2 {
+        width: 60%;
+    }
+
+    .sec-6text {
+        width: 400px;
+    }
+
+    .sec6-img2 img {
+        width: 190px;
+        height: 180px;
+
+    }
+
+    .textare1 {
+        width: 375px;
+        height: 564px;
+        gap: 20px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-top: 40px;
+    }
+
+    .textare1 li {
+        width: 370px;
+    }
+
+    .textare2 li {
+        width: 370px;
+    }
+
+    .footer {
+        width: 406px;
+    }
+
+    .textare2 {
+        width: 375px;
+        height: 564px;
+        gap: 20px;
+        padding-right: 16px;
+        padding-left: 16px;
+        margin-bottom: 90px;
+    }
+
+    .section-8 {
+        margin-top: 30%;
+    }
+
+    .section-8 div img {
+        width: 350px;
+    }
+
+    .sec8-img1 {
+        width: 330px;
+    }
+
+    .sec8-img2 {
+        width: 330px;
+    }
+
+    .section-4,
+    .section-5,
+    .section-6,
+    .section-7,
+    .section-8 {
+        padding: 20px 16px;
+    }
+
+    .footer {
+        padding: 32px 10px;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+
+    .sub2 {
+        width: 259px;
+        padding-right: 74px;
+    }
+
+    .sub1 {
+        width: 200px;
+    }
+}
+
+@media (max-width: 300px) {
+    .heading-hero h2 {
+        font-size: 18px;
+    }
+
+    .phara-1 {
+        font-size: 10px;
+    }
+
+    .sec-2head1,
+    .sec-2head2 {
+        font-size: 16px;
+    }
+
+    .Client,
+    .Expedited,
+    .Quality,
+    .Detailed,
+    .project,
+    .Jersey {
+        font-size: 8px;
+    }
+
+    .section-3 div p {
+        font-size: 24px;
+    }
+
+    .section-4,
+    .section-5,
+    .section-6,
+    .section-7,
+    .section-8 {
+        padding: 10px 5px;
+    }
+
+    .footer {
+        padding: 10px 5px;
+    }
+
+}
