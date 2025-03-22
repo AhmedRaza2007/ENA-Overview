@@ -5,16 +5,6 @@
     font-family: "Roboto", sans-serif;
 }
 
-p {
-    margin: 0px;
-    padding: 0px;
-}
-
-h2 {
-    margin: 0px;
-    padding: 0px;
-}
-
 .back-img {
     background: url(./img/hero-img.svg) no-repeat center center / cover;
     height: 565px;  
@@ -36,13 +26,13 @@ h2 {
 }
 
 .line {
-    width: 1206px;
-    color: white;
-    background-color: white;
+    width: 1208px;
+    color: #FFFFFF;
+    margin-left: 96px;
 }
 
 .navlinks {
-    color: white;
+    color: #FFFFFF;
     display: flex;
     gap: 20px;
     font-weight: 600;
@@ -84,7 +74,9 @@ h2 {
     line-height: 100%;
     letter-spacing: 12%;
     text-transform: uppercase;
-    color: white;
+    color: #ffffff;
+    background-color: transparent;
+    border: none;
 }
 
 .heading-hero {
@@ -188,7 +180,7 @@ h2 {
     color: #141515;
 }
 
-.Client {
+.client {
     width: 463px;
     font-weight: 300;
     font-size: 18px;
@@ -198,7 +190,7 @@ h2 {
     color: #141515;
 }
 
-.Expedited {
+.expedited {
     width: 463px;
     font-weight: 300;
     font-size: 18px;
@@ -208,7 +200,7 @@ h2 {
     color: #141515;
 }
 
-.Quality {
+.quality {
     width: 463px;
     font-weight: 300;
     font-size: 18px;
@@ -218,7 +210,7 @@ h2 {
     color: #141515;
 }
 
-.Detailed {
+.qetailed {
     width: 463px;
     font-weight: 300;
     font-size: 18px;
@@ -268,7 +260,7 @@ h2 {
     gap: 40px;
 }
 
-.Deep {
+.deep {
     font-weight: 700;
     font-size: 30px;
     line-height: 40px;
@@ -290,7 +282,7 @@ h2 {
     align-items: center;
 }
 
-.section-3 div p {
+.section-3 div h2 {
     font-size: 112px;
     font-weight: 700;
     color: #FFFFFF;
@@ -300,8 +292,7 @@ h2 {
 .section-4 {
     width: 85%;
     height: 658px;
-    padding-top: 88px;
-    padding-bottom: 88px;
+    padding-block: 88px;
     padding-left: 104px;
     justify-content: space-between;
     align-items: center;
@@ -317,7 +308,7 @@ h2 {
     flex-direction: column;
 }
 
-.Mechanical {
+.mechanical {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -327,7 +318,7 @@ h2 {
     color: #141515;
 }
 
-.Calculation {
+.calculation {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -336,7 +327,7 @@ h2 {
     color: #141515;
 }
 
-.Selection {
+.selection {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -345,7 +336,7 @@ h2 {
     color: #141515;
 }
 
-.Ductwork {
+.ductwork {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -354,7 +345,7 @@ h2 {
     color: #141515;
 }
 
-.Energy {
+.energy {
     font-weight: 700;
     font-size: 18px;
     line-height: 24px;
@@ -415,8 +406,7 @@ h2 {
 
 .section-5 {
     width: 1140px;
-    padding-top: 88px;
-    padding-bottom: 88px;
+    padding-block: 88px;
     padding-left: 104px;
     display: flex;
     flex-direction: row;
@@ -463,11 +453,11 @@ h2 {
     color: #141515;
 }
 
-.section-5 div p span {
+/* .section-5 div p strong {
     font-size: 18px;
     font-weight: 700;
     color: #141515;
-}
+} */
 
 .section-5 div p {
     font-size: 18px;
@@ -501,7 +491,7 @@ h2 {
     flex-direction: column;
 }
 
-.Plumbing {
+.plumbing {
     color: #141515;
     width: 104px;
     height: 24px;
@@ -512,7 +502,7 @@ h2 {
     text-align: center;
 }
 
-.Potable {
+.potable {
     width: 466px;
     height: 360px;
     font-weight: 700;
@@ -522,7 +512,7 @@ h2 {
     color: #141515;
 }
 
-.Wastewater {
+.wastewater {
     width: 466px;
     height: 360px;
     font-weight: 700;
@@ -532,7 +522,7 @@ h2 {
     color: #141515;
 }
 
-.Hot {
+.hot {
     width: 466px;
     height: 360px;
     font-weight: 700;
@@ -542,7 +532,7 @@ h2 {
     color: #141515;
 }
 
-.Gas {
+.gas {
     width: 466px;
     height: 360px;
     font-weight: 700;
@@ -595,10 +585,8 @@ h2 {
     justify-content: space-between;
     align-items: start;
     text-align: center;
-    /* width: 1040px; */
     height: 432px;
-    padding-right: 60px;
-    padding-left: 60px;
+    padding-inline: 60px;
     gap: 56px;
 }
 
@@ -612,7 +600,7 @@ h2 {
     text-align: center;
 }
 
-.Voltage {
+.voltage {
     width: 218px;
     height: 32px;
     font-weight: 700;
@@ -625,7 +613,6 @@ h2 {
 
 .electronics {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -636,7 +623,6 @@ h2 {
 
 .network {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -645,9 +631,8 @@ h2 {
     color: #141515;
 }
 
-.Wireless {
+.wireless {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -656,9 +641,8 @@ h2 {
     color: #141515;
 }
 
-.Structured {
+.structured {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -667,9 +651,8 @@ h2 {
     color: #141515;
 }
 
-.Vertical {
+.vertical {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -680,7 +663,6 @@ h2 {
 
 .distribution {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -689,9 +671,8 @@ h2 {
     color: #141515;
 }
 
-.Telecommunications {
+.telecommunications {
     width: 548px;
-    /* height: 360px; */
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -710,14 +691,8 @@ h2 {
     text-align: center;
 }
 
-li {
-    margin: 0%;
-    padding: 0%;
-}
-
-.Security {
+.security {
     width: 119px;
-    /* height: 32px; */
     font-weight: 700;
     font-size: 32px;
     line-height: 32px;
@@ -733,22 +708,20 @@ li {
     letter-spacing: -4%;
     text-align: center;
     width: 548px;
-    /* height: 120px; */
     color: #141515;
 }
 
-.Closed {
+.closed {
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
     letter-spacing: -4%;
     text-align: center;
     width: 548px;
-    /* height: 120px;/ */
     color: #141515;
 }
 
-.Access {
+.access {
     font-weight: 300;
     font-size: 20px;
     line-height: 24px;
@@ -759,10 +732,8 @@ li {
 }
 
 .section-8 {
-    /* width: 1040px; */
     height: 565px;
-    padding-top: 144px;
-    padding-bottom: 144px;
+    padding-block: 144px;
     gap: 56px;
     display: flex;
     justify-content: center;
@@ -780,13 +751,8 @@ li {
 }
 
 .footer {
-    /* width: 1060px; */
-    /* height: 214px; */
     justify-content: space-between;
-    padding-top: 72px;
-    padding-right: 144px;
-    padding-bottom: 72px;
-    padding-left: 144px;
+    padding: 72px 144px;
     background-color: #141515;
     display: flex;
     flex-direction: row;
@@ -848,7 +814,7 @@ li {
     text-align: center;
 }
 
-.Location {
+.location {
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
@@ -859,7 +825,7 @@ li {
     height: 14px;
 }
 
-.Jersey {
+.jersey {
     width: 215px;
     height: 20px;
     font-weight: 300;
@@ -879,7 +845,7 @@ li {
     text-align: start;
 }
 
-.Contacts {
+.contacts {
     font-weight: 600;
     font-size: 16px;
     line-height: 100%;
@@ -891,27 +857,15 @@ li {
 }
 
 .link {
-    width: 174;
-    height: 20;
+    color: #FFFFFF;
     font-weight: 300;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: -4%;
-    text-decoration: underline;
-    text-decoration-style: solid;
-    text-decoration-thickness: 7%;
-    text-decoration-skip-ink: auto;
 }
 
 .section-1-img {
-    padding-left: 20px;
-    padding-right: 20px;
+   padding-inline: 20px;
 }
-
-.link {
-    color: #FFFFFF;
-}
-
 @media (max-width: 768px) {
     .back-img {
         height: 380px;
@@ -975,17 +929,17 @@ li {
         padding-bottom: 32px;
     }
 
-    .Client,
-    .Expedited,
-    .Quality,
-    .Detailed,
+    .client,
+    .qxpedited,
+    .quality,
+    .detailed,
     .project,
-    .Jersey {
+    .jersey {
         font-size: 16px !important;
         width: 351px !important;
     }
 
-    .Deep h2 {
+    .deep h2 {
         font-size: 24px;
         width: 100%;
     }
@@ -998,7 +952,7 @@ li {
         padding-top: 40px;
     }
 
-    .section-3 div p {
+    .section-3 div h2 {
         font-size: 60px;
     }
 
@@ -1095,29 +1049,29 @@ li {
 
     }
 
-    .Mechanical, .Plumbing, .Voltage, .Security {
+    .mechanical, .plumbing, .voltage, .security {
         font-size: 28px;
         color: #141515;
         font-weight: 700;
     }
 
-    .Calculation,
-    .Selection,
-    .Ductwork,
-    .Energy,
-    .Potable,
-    .Wastewater,
-    .Hot,
-    .Gas,
+    .calculation,
+    .selection,
+    .ductwork,
+    .energy,
+    .potable,
+    .wastewater,
+    .hot,
+    .gas,
     .electronics,
     .network,
-    .Wireless,
-    .Structured,
-    .Vertical,
+    .wireless,
+    .structured,
+    .vertical,
     .distribution,
-    .Telecommunications,
-    .Closed,
-    .Access,
+    .telecommunications,
+    .closed,
+    .access,
     .alarms {
         font-size: 16px;
     }
@@ -1183,6 +1137,7 @@ li {
 
     .line {
         width: 100%;
+        margin-left: 0;
     }
 
     .section-1 {
@@ -1221,12 +1176,6 @@ li {
         padding: 0px;
         width: 350px;
     }
-/* 
-    .phara-1 {
-        font-size: 12px;
-        width: 343px;
-        height: 160px;
-    } */
 
     .child-2 {
         width: 350px;
@@ -1237,12 +1186,12 @@ li {
         font-size: 18px;
     }
 
-    .Client,
-    .Expedited,
-    .Quality,
-    .Detailed,
+    .client,
+    .expedited,
+    .quality,
+    .detailed,
     .project,
-    .Jersey {
+    .jersey {
         font-size: 10px;
         width: 300px;
         font-family: Roboto;
@@ -1254,7 +1203,7 @@ li {
 
     }
 
-    .section-3 div p {
+    .section-3 div h2 {
         font-size: 23px;
         text-align: center;
         background-position: center;
@@ -1338,19 +1287,19 @@ li {
 
     }
 
-    .Potable {
+    .potable {
         width: 403px;
     }
 
-    .Wastewater {
+    .wastewater {
         width: 403px;
     }
 
-    .Hot {
+    .hot {
         width: 403px;
     }
 
-    .Gas {
+    .gas {
         width: 403px;
     }
 
@@ -1440,7 +1389,7 @@ li {
     }
 
     .footer {
-        width: 406px;
+        width: 470px;
     }
 
     .textare2 {
@@ -1507,16 +1456,16 @@ li {
         font-size: 16px;
     }
 
-    .Client,
-    .Expedited,
-    .Quality,
-    .Detailed,
+    .client,
+    .expedited,
+    .quality,
+    .detailed,
     .project,
-    .Jersey {
+    .jersey {
         font-size: 8px;
     }
 
-    .section-3 div p {
+    .section-3 div h2 {
         font-size: 24px;
     }
 
