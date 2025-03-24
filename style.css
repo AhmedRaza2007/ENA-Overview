@@ -25,7 +25,7 @@
 }
 
 .line {
-    width: 1208px;
+    width: 1066px;
     color: #FFFFFF;
     margin-left: 96px;
 }
@@ -89,8 +89,7 @@
 }
 
 .section-1 {
-    width: 375px;
-    height: 1078px;
+    width: 1180px;
    padding: 60px 16px;
     gap: 40px;
     display: flex;
@@ -593,7 +592,7 @@
 }
 
 .voltage {
-    width: 218px;
+    width: 235px;
     height: 32px;
     font-weight: 700;
     font-size: 32px;
