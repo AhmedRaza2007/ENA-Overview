@@ -764,7 +764,8 @@
     gap: 10px;
     width: 215px;
     height: 50px;
-    gap: 16px;
+    gap: 9px;
+    padding-top: 14px;
 }
 
 .foot-haeading {
