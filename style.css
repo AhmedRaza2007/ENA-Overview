@@ -311,12 +311,14 @@
     font-size: 24px;
     font-weight: 700;
     color: #141515;
+    padding-bottom: 20px;
 }
 
 .section-5 div p {
     font-size: 18px;
     font-weight: 300;
     color: #141515;
+    padding-bottom: 20px;
 }
 
 .images2 {
@@ -1684,14 +1686,14 @@
             gap: 25px;
         }
         .calculation {
-            font-weight: 700;
+            font-weight: 300;
             font-size: 18px;
             line-height: 24px;
             letter-spacing: -4%;
             width: 466px;
       }
       .selection, .ductwork, .energy  {
-        font-weight: 700;
+        font-weight: 300;
         font-size: 18px;
         line-height: 24px;
         letter-spacing: -4%;
